@@ -6,6 +6,7 @@ import { SandeepTestComponent } from './g-sandeep/sandeep-test/sandeep-test.comp
 import { CreateRegistrationComponent } from './t-srikanth/components/create-registration/create-registration.component';
 import { RegistrationListComponent } from './t-srikanth/components/registration-list/registration-list.component';
 import { UserDetailComponent } from './t-srikanth/user-detail/user-detail.component';
+import { DLoginComponent } from './dinesh/d-login/d-login.component';
 const routes: Routes = [
   {
     path: '',
@@ -26,7 +27,7 @@ const routes: Routes = [
    {
     path: 'Nagarjuna',
     loadChildren: () => import('./nagarjuna-b/nagarjuna.module').then(m => m.NagarjunaModule)
-  }
+  },
   {
     path: 'srikantH',loadChildren: () => import('./t-srikanth/srikanth.module').then(m => m.SrikanthModule)
   },
